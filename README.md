@@ -111,7 +111,7 @@ API Endpoints
 
     Fetch the logged-in user's profile details and connections.
 
-Authentication: Basic Authentication (Username: admin, Password: secret)
+Authentication: Basic Authentication
 
 Response: Returns a JSON object with user's profile and connection data.
 
