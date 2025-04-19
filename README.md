@@ -1,9 +1,10 @@
-                                                                    LinkedIn Profile & Connection Scraper API
+                                                    LinkedIn Profile & Connection Scraper API
 
 Project Overview
 
 
-    This project provides an API service to log into LinkedIn, scrape the user's profile and connections, and return the scraped data. Built using Python, Selenium, and Flask, it automates LinkedIn login, retrieves user profile details and connections using LinkedIn’s internal Voyager API, and provides this data through a Flask-based API.
+    This project provides an API service to log into LinkedIn, scrape the user's profile and connections, and return the scraped data. Built using Python, Selenium, and Flask, it 
+    automates LinkedIn login, retrieves user profile details and connections using LinkedIn’s internal Voyager API, and provides this data through a Flask-based API.
 
 
 Features
@@ -61,6 +62,7 @@ Project Structure
     ├── requirements.txt               # List of required Python libraries for the project
     └── Linkedin_scraper.py             # Main Python script for LinkedIn profile and connection scraping
 
+
 Cloning the Repository
 
     git clone https://github.com/your-username/linkedin-scraper-api.git
@@ -101,7 +103,6 @@ Setup Instructions
 
             python app.py
 
-
     4. The API will be accessible at http://127.0.0.1:5000/
 
 API Endpoints
@@ -138,5 +139,5 @@ Unit Tests
 
         -Test for the JSON response structure
       
-        
               python test_app.py
+              python test_app.py           
